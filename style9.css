@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('Images/background.jpg') no-repeat center center fixed;
+    background: url('background10.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
@@ -13,26 +13,6 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    position: relative; 
-    text-align: center; 
-    padding: 10px 0;
-}
-
-h1 {
-    margin: 0;
-    font-size: 24px; 
-}
-
-.logo-link {
-    position: absolute;
-    top: 10px; 
-    left: 10px; 
-}
-
-.logo {
-    width: 80px; 
-    height: auto;
-    border-radius: 10%;
 }
 
 header h1 {
@@ -45,12 +25,16 @@ nav {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
-} 
+}
 
 nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -84,17 +68,18 @@ nav a {
     margin-bottom: 10px;
 }
 
-.blog-post .read-more {
+.back-button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 20px;
     background: #333;
     color: #fff;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
 }
 
-.blog-post .read-more:hover {
+.back-button:hover {
     background: #555;
 }
 

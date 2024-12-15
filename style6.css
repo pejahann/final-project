@@ -1,77 +1,92 @@
-        body {
-            background-color: #0d0d0d;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('background7.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
 
-        .profile-card {
-            background-color: #222;
-            color: white;
-            border-radius: 15px;
-            padding: 30px;
-            text-align: center;
-            width: 320px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
+header {
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-        .profile-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 15px;
-        }
+header h1 {
+    margin: 0;
+}
 
-        .profile-card h2 {
-            margin-bottom: 5px;
-        }
+nav {
+    background: rgba(85, 85, 85, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
 
-        .profile-card p.location {
-            color: #a5ff3d;
-            font-size: 0.9em;
-            margin: 0;
-        }
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
 
-        .profile-card p.bio {
-            font-style: italic;
-            margin: 10px 0;
-        }
+nav a:hover {
+    text-decoration: underline;
+}
 
-        .profile-card button {
-            background-color: #3a3a3a;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin: 5px 0;
-            border-radius: 5px;
-            cursor: pointer;
-            width: 100%;
-            font-size: 1em;
-        }
+.container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
 
-        .profile-card button:hover {
-            background-color: #555;
-        }
+.blog-post {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-        .profile-card button:active {
-            background-color: #777;
-        }
-        
-        h1 {
-            margin: 0;
-            font-size: 24px; 
-        }
-        
-        .logo-link {
-            position: absolute;
-            top: 10px; 
-            left: 10px; 
-        }
-        
-        .logo {
-            width: 80px; 
-            height: auto;
-        }
+.blog-post h2 {
+    margin: 0 0 10px;
+}
+
+.blog-post p {
+    margin: 10px 0;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.back-button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    background: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
